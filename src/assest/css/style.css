@@ -1,0 +1,460 @@
+header {
+  width: 100%;
+  padding: 31px 30px 29px 32px;
+  border-bottom: 0.7px solid #c4c4c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  height: 100%;
+}
+
+.endShare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  margin-right: 167px;
+}
+.activeClass {
+  display: flex;
+}
+.point {
+  width: 8px;
+  height: 8px;
+  background: #08d3bb;
+  border-radius: 50%;
+}
+.activeLink {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1090cb;
+  margin-right: 83px;
+}
+.link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-right: 71px;
+}
+.contactAsButton {
+  background: #1090cb;
+  border-radius: 6px;
+  padding: 10px 27px 11px 26px;
+  border: none;
+  outline: none;
+}
+.contactAsLink {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.imgContainer {
+  display: flex;
+  width: 100vw;
+  height: 743px;
+  background: rgba(16, 144, 203, 0.1);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 123px;
+  margin-top: 128px;
+}
+.totalText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #000000;
+}
+.specialText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #1090cb;
+}
+.platforms_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 204.3%;
+  color: #5c5c5c;
+  margin-top: 16px;
+}
+.contact_us_button {
+  width: 193px;
+  height: 51px;
+  background: #1090cb;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  color: #fff;
+}
+.view_more_button {
+  width: 193px;
+  height: 51px;
+  background: #ffffff;
+  border: 1px solid #1090cb;
+  border-radius: 10px;
+  outline: none;
+  color: #1090cb;
+  margin-left: 15px;
+}
+
+.rightImg {
+  position: absolute;
+  right: 0;
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 270px;
+}
+.leftImg {
+  position: absolute;
+  left: 0;
+  margin-top: 300px;
+}
+.rightImg2 {
+  position: absolute;
+  right: 0;
+  margin-top: 182px;
+  margin-right: 100px;
+}
+.rightImg3 {
+  position: absolute;
+  right: 0;
+  margin-top: 475px;
+  margin-right: 100px;
+}
+.banner {
+  width: 100%;
+  border-bottom: 0.7px solid #c7c7c7;
+  padding: 43px 130px 43px 123px;
+  display: flex;
+  justify-content: space-between;
+}
+.banner_list {
+  display: flex;
+  align-items: center;
+}
+.imgBody {
+  width: 83px;
+  height: 83px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.simpleText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 175%;
+  color: #000000;
+}
+.miniText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 175%;
+  color: #969696;
+}
+.textBody {
+  margin-left: 1rem;
+}
+.product_about {
+  width: 100%;
+  position: relative;
+  padding: 115px 129px 123px 44px;
+}
+.productAboutText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.loremTextBig {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 160%;
+  text-align: center;
+  color: #252525;
+}
+.loremTextSmall {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  text-align: center;
+  color: #868686;
+  margin-top: 32px;
+}
+.card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cardLeft {
+  display: flex;
+  flex-direction: column;
+  margin-top: 115px;
+}
+.cardHeader {
+  display: flex;
+  align-items: center;
+}
+
+.happyImgBody {
+  width: 58px;
+  height: 58px;
+  background: #08d3bb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.loremTest {
+  margin-left: 25px;
+}
+.dummyText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 175%;
+  color: #000000;
+}
+.simplyText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 175%;
+  color: #868686;
+}
+.cardImg {
+  margin-top: 55px;
+}
+.notificationBoxes {
+  width: 100%;
+  padding: 0px 123px;
+  display: flex;
+}
+.notificationBoxOne {
+  width: 572px;
+  height: 459px;
+  background: #f4f4f4;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.notificationBoxTwo {
+  width: 572px;
+  height: 459px;
+  background: #1090cb;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+.notificationText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 170%;
+  text-align: center;
+  color: #252525;
+}
+.notificationTextLorem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  text-align: center;
+  color: #545454;
+  margin-top: 36px;
+}
+.viewMoreButton {
+  width: 153px;
+  height: 49px;
+  background: #1090cb;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  margin-top: 36px;
+}
+.viewMoreButtonDark {
+  width: 153px;
+  height: 49px;
+  background: color;
+  border-radius: 10px;
+  border: 0;
+  color: #1090cb;
+  margin-top: 36px;
+}
+.notificattionIcon {
+  position: absolute;
+  top: -77px;
+  right: 0;
+}
+.company {
+  display: flex;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0px 200px;
+  margin-top: 184px;
+}
+.companyText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 159%;
+  color: #000000;
+}
+.companyImgBody {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.formBody {
+  width: 100%;
+  padding: 148px 0px 148px 0px;
+  background: #e8f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+.starIcon {
+  position: absolute;
+  left: 13%;
+  top: -9%;
+}
+.atIcon {
+  position: absolute;
+  top: 17%;
+  left: 66%;
+}
+.formBodyLorem {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 170%;
+  text-align: center;
+  color: #252525;
+}
+
+.subscribeButton {
+  width: 173px;
+  background: #000000;
+  border-radius: 10px;
+  color: #fff4f4;
+  border: 0;
+  outline: none;
+  margin-left: 14px;
+  padding: 20px 43px 20px 44px;
+}
+
+.emailInput {
+  width: 532px;
+  background: #ffffff;
+  box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  padding: 20px 0px 20px 36px;
+}
+
+.emailInput::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: #787878;
+}
+
+footer {
+  padding: 82px 120px 27px 101px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.loremtext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #515151;
+  margin-top: 27px;
+}
+.loremEmailText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #515151;
+  margin-top: 25px;
+}
+.aboutUsList {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+}
+.aboutUsList a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 186.3%;
+  color: #515151;
+}
+.footerList {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #000000;
+}
+.socialMediaBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: end;
+}
+.iconBody {
+  width: 34px;
+  height: 34px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 16px;
+}
