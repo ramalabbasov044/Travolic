@@ -1,0 +1,212 @@
+.main {
+  background-color: #e8f4fa;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.speakerBody {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 31px 32px 31px 30px;
+  max-width: 135px;
+  max-height: 135px;
+}
+.ServicesMelumat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.servicesText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  color: #000000;
+  margin-top: 22px;
+}
+.loremServicesText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  text-align: center;
+  color: #696969;
+  margin-top: 18px;
+}
+.servicesBox {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 4px 114px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  padding: 64px 82px 84px 62px;
+  margin-top: 71px;
+  display: flex;
+  justify-content: space-between;
+}
+.leftShare {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+.rightShare {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.applacationAboutBox {
+  width: 91px;
+  height: 90px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.applacationNameText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 177.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.applacattionAboutText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 177.9%;
+  letter-spacing: 0.01em;
+  color: #797979;
+}
+
+.prige {
+  position: absolute;
+  right: 4%;
+  top: -16%;
+  
+}
+.dummy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 71px 20px 158px 119px;
+}
+.dummyText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 170%;
+}
+.totText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #545454;
+}
+.history {
+  background: #1090cb;
+  width: 100%;
+  padding: 129px 178px 143px 178px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.historyBody {
+  display: flex;
+  flex-direction: column;
+}
+.historyNumber {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 177.9%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.historyText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 177.9%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.icon1 {
+  position: absolute;
+  left: 10%;
+  top: -24%;
+}
+.icon2 {
+  position: absolute;
+  right: 10%;
+  top: -16%;
+}
+.icon3 {
+  position: absolute;
+  left: 4%;
+  bottom: -3%;
+}
+.icon4 {
+  position: absolute;
+  left: 22%;
+  bottom: -11%;
+}
+.icon5 {
+  position: absolute;
+  right: 11%;
+  top: -21%;
+}
+.cardBody {
+  width: 100%;
+  padding: 140px 153px 100px 119px;
+}
+.cardBox {
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+.latestText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 177.9%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+}
+.cardName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 177.9%;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-top: 40px;
+}
+.cardtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 210.9%;
+  letter-spacing: 0.01em;
+  color: #424242;
+  margin-top: 20px;
+}

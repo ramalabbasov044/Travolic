@@ -1,62 +1,7 @@
-header {
-  width: 100%;
-  padding: 31px 30px 29px 32px;
-  border-bottom: 0.7px solid #c4c4c4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 main {
   height: 100%;
 }
 
-.endShare {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.list {
-  margin-right: 167px;
-}
-.activeClass {
-  display: flex;
-}
-.point {
-  width: 8px;
-  height: 8px;
-  background: #08d3bb;
-  border-radius: 50%;
-}
-.activeLink {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #1090cb;
-  margin-right: 83px;
-}
-.link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
-  margin-right: 71px;
-}
-.contactAsButton {
-  background: #1090cb;
-  border-radius: 6px;
-  padding: 10px 27px 11px 26px;
-  border: none;
-  outline: none;
-}
-.contactAsLink {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
-  color: #ffffff;
-}
 .imgContainer {
   display: flex;
   width: 100vw;
@@ -117,24 +62,22 @@ main {
   right: 0;
   justify-content: flex-end;
   display: flex;
-  margin-top: 270px;
+  bottom: -15%;
 }
 .leftImg {
   position: absolute;
   left: 0;
-  margin-top: 300px;
+  bottom: -27%;
 }
 .rightImg2 {
   position: absolute;
-  right: 0;
-  margin-top: 182px;
-  margin-right: 100px;
+  right: 10%;
+  top: 40%;
 }
 .rightImg3 {
   position: absolute;
-  right: 0;
-  margin-top: 475px;
-  margin-right: 100px;
+  right: 10%;
+  bottom: 0;
 }
 .banner {
   width: 100%;
@@ -338,123 +281,4 @@ main {
   display: flex;
   width: 100%;
   justify-content: space-between;
-}
-.formBody {
-  width: 100%;
-  padding: 148px 0px 148px 0px;
-  background: #e8f4fa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  position: relative;
-}
-.starIcon {
-  position: absolute;
-  left: 13%;
-  top: -9%;
-}
-.atIcon {
-  position: absolute;
-  top: 17%;
-  left: 66%;
-}
-.formBodyLorem {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 170%;
-  text-align: center;
-  color: #252525;
-}
-
-.subscribeButton {
-  width: 173px;
-  background: #000000;
-  border-radius: 10px;
-  color: #fff4f4;
-  border: 0;
-  outline: none;
-  margin-left: 14px;
-  padding: 20px 43px 20px 44px;
-}
-
-.emailInput {
-  width: 532px;
-  background: #ffffff;
-  box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.07);
-  border-radius: 10px;
-  border: 0;
-  outline: none;
-  padding: 20px 0px 20px 36px;
-}
-
-.emailInput::placeholder {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 170%;
-  color: #787878;
-}
-
-footer {
-  padding: 82px 120px 27px 101px;
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-}
-.loremtext {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #515151;
-  margin-top: 27px;
-}
-.loremEmailText {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #515151;
-  margin-top: 25px;
-}
-.aboutUsList {
-  display: flex;
-  margin-top: 15px;
-  flex-direction: column;
-}
-.aboutUsList a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 186.3%;
-  color: #515151;
-}
-.footerList {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 26px;
-  color: #000000;
-}
-.socialMediaBanner {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  text-align: end;
-}
-.iconBody {
-  width: 34px;
-  height: 34px;
-  background: #ffffff;
-  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-right: 16px;
 }

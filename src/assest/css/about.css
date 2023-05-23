@@ -1,0 +1,164 @@
+.main {
+  padding: 156px 0px 0px 89px;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  align-items: end;
+  text-align: center;
+}
+
+.rightPage {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.rightPage a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: #1090cb;
+}
+.rightPage p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 170%;
+  color: #252525;
+  margin-top: 19px;
+}
+.rightPage span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  color: #868686;
+  margin-top: 37px;
+}
+
+.bottomImg {
+  margin-top: 60px;
+}
+
+.Vector {
+  position: absolute;
+  bottom: -20%;
+  left: 0%;
+}
+
+.VectorEnd {
+  position: absolute;
+  right: 0;
+  top: -10%;
+}
+
+.backgroundImage {
+  position: absolute;
+  right: 7%;
+  top: 75.8%;
+  z-index: -100;
+}
+.loremBody {
+  padding: 220px 0px 0px 123px;
+}
+.IpsumText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 160%;
+  color: #1090cb;
+}
+.technologText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: #585858;
+  margin-top: 48px;
+}
+.applacationAboutBody {
+  display: flex;
+  padding: 178px 0px 197px 123px;
+  justify-content: space-between;
+}
+.border {
+  width: 54px;
+  height: 5px;
+  background: #4628a4;
+}
+.increment {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  color: #000000;
+  margin-top: 28px;
+}
+.aboutLorem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  margin-top: 31px;
+  color: #585858;
+}
+.contact_us_button {
+  background: #ffffff;
+  border: 1px solid #1090cb;
+  border-radius: 10px;
+  padding: 9px 51px 9px 54px;
+  outline: none;
+  margin-top: 62px;
+}
+.contact_us_button_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 204.3%;
+  color: #1090cb;
+  text-decoration: none;
+}
+.applacationBox {
+  background: #ffffff;
+  box-shadow: 0px 4px 124px rgba(0, 0, 0, 0.1);
+  padding: 65px 91px 95px 61px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 766px;
+}
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  text-align: left;
+}
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-items: start;
+}
+.applacationName {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 177.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #2e0d64;
+  margin-left: 29px;
+}
+.totImgBox {
+  width: 91px;
+  height: 90px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
